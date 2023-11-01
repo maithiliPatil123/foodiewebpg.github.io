@@ -1,0 +1,110 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
+
+body {
+    background: white;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 1rem 9%;
+    box-shadow: 0.5rem 1rem rgba(0, 0, 0, .1);
+}
+
+header .logo {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: black;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+header .logo i {
+
+    padding-right: .5rem;
+    color: blue;
+}
+
+header .navbar a {
+    font-size: 2rem;
+    margin-left: 2rem;
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+header .navbar a:hover {
+    color: red;
+}
+
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    min-height: 100vh;
+    align-items: center;
+
+    background-position: center;
+
+}
+
+.home .content {
+    flex: 1 1 40rem;
+    font-size: large;
+    margin-left: 24px;
+
+}
+
+
+.home .image {
+    background-repeat: no-repeat;
+    flex: 1 1 40rem;
+}
+
+.home .image img {
+    width: 100%;
+    padding: 1rem;
+
+}
+
+.btn {
+    display: inline-block;
+    border: .2rem solid black;
+    padding: .8rem 3rem;
+    color: rgb(6, 6, 251);
+    font-size: large;
+    cursor: pointer;
+    background-color: black;
+    border-radius: .5rem;
+    position: relative;
+    margin-top: 1rem;
+    margin-left: 20px;
+}
+
+.btn:hover {
+    color: red;
+}
